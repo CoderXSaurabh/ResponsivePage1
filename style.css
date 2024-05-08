@@ -1,0 +1,132 @@
+
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #00bbff;
+}
+
+.fullscreen-image {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.fullscreen-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-caption {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 36px;
+    text-align: left;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.additional-info {
+
+    padding: 20px;
+}
+
+.cont2 {
+    padding-bottom: 100px;
+    padding-top: 30px;
+    margin-top: auto;
+    background-color: #88c0f8;
+    display: flex;
+
+}
+
+.button1 {
+    margin-left: 60%;
+    height: 50px;
+    width: 150px;
+
+}
+
+.services {
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.services-text {
+    background-color: rgb(203, 191, 191);
+    opacity: 0.9;
+    padding: 20px 5px;
+    border-radius: 10px;
+}
+
+.icon-services {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(73, 197, 247);
+    padding-bottom: 4px;
+    border-bottom: 3px solid rgb(73, 197, 247);
+}
+
+.our-team {
+    display: flex;
+    background-color: rgb(151, 147, 147);
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    width: 101%;
+}
+
+#service-img {
+    font-size: 35px;
+    padding-right: 20px;
+    padding: 3px 0px;
+}
+
+#service-texts {
+    /* margin-top: 200px; */
+    text-align: start;
+}
+
+#button-service {
+    background-color: #88c0f8;
+    color: white;
+    border-radius: 0px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    color: white;
+    text-align: center;
+    background-color: rgb(71, 68, 68);
+    gap: 20px;
+    padding: 20px;
+}
+
+a {
+    color: white;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.footer-white {
+    color: white;
+}
+
+@media (min-width: 768px) {
+    footer {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 992px) {
+    footer {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

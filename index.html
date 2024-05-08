@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TYCOON</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha384-T89cPfJr8Rv7SvBj3TP2qgWkaLslGZ7UP+ta/PTweZqfcX83QnDrN5vlCJ4n1v0I" crossorigin="anonymous">
+    <!-- Bootstrap JS Bundle -->
+    <link href="assets/img/icons8-hitman-48.png" rel="icon">
+    <link href="assets/img/icons8-hitman-48.png" rel="hitman-icon">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <script>
+        function displayAlert() {
+            alert('Button clicked!');
+        }
+    </script>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-4">
+        <a class="navbar-brand" href="#"><img src="./images/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#home">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        About Us
+                    </a>
+                    <div class="dropdown-menu border border-none" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#home">Company</a>
+                        <a class="dropdown-item" href="#home">Our Team</a>
+                        <a class="dropdown-item" href="#home">News</a>
+                        <a class="dropdown-item" href="#home">Investors</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#our-team">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#our-team">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer-call">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="fullscreen-image">
+        <img src="./images/slider-one.jpg" id="home" alt="Image">
+        <div class="image-caption color-dark">
+            <h1 style="font-size: 60px;">INNOVATION</h1>
+            <h4 style="color: rgb(96, 82, 82);">We Create the Opportunities</h4>
+        </div>
+    </div>
+    <!-- row 2 -->
+    <div style="background-color: #88c0f8;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="additional-info">
+                        <h2>Additional Information</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-center justify-content-center">
+                    <button type="button" class="btn btn-primary button1" onclick="displayAlert()" style="background-color: #88c0f8; color: black; margin-top: 30px;">Read More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Row 3 -->
+    <div id="services" class="services">
+        <div class="container">
+            <div class="section-title" style="text-align: center;">
+                <h2>OUR SERVICES</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid fugiat adipisci iusto in. Aspernatur, soluta aperiam. Similique fugit explicabo in necessitatibus, incidunt impedit debitis, nisi suscipit provident totam pariatur obcaecati!</p>
+            </div>
+
+            <div class="row" style="text-align: center;">
+                <div class="col-md-4 col-sm-12">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon-services" width="50" height="50" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+                        <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6"/>
+                    </svg>
+                    <div class="services-text">
+                        <h3>Consulting</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laboriosam nostrum asperiores incidunt iste.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+                    <svg class="icon-services" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-hdd" viewBox="0 0 16 16" style="">
+                        <path d="M4.5 11a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M3 10.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0"/>
+                        <path d="M16 11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V9.51c0-.418.105-.83.305-1.197l2.472-4.531A1.5 1.5 0 0 1 4.094 3h7.812a1.5 1.5 0 0 1 1.317.782l2.472 4.53c.2.368.305.78.305 1.198zM3.655 4.26 1.592 8.043Q1.79 8 2 8h12q.21 0 .408.042L12.345 4.26a.5.5 0 0 0-.439-.26H4.094a.5.5 0 0 0-.44.26zM1 10v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1"/>
+                    </svg>
+                    <div class="services-text">
+                        <h3>Strategy</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi sapiente in omnis placeat aliquam!</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon-services" width="50" height="50" fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16">
+                        <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1"/>
+                    </svg>
+                    <div class="services-text">
+                        <h3>Analysis</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos repellendus quibusdam ipsum nulla cumque!</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Row 4 -->
+    <div class="our-team row" id="our-team">
+        <div id="service-img" class="col-md-6 order-md-1 order-1">
+            <img src="./images/service.jpg" width="700px" class="img-fluid" alt="Our Team Image">
+        </div>
+        <div id="service-texts" class="col-md-6  order-md-2 order-2">
+            <h2 style="margin-top: 100px;">Our Team</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, quam temporibus ratione id cumque amet veniam velit ullam beatae quisquam molestiae incidunt, labore modi! Labore fugiat consequuntur itaque fugit eum deserunt tenetur numquam id porro, quasi temporibus, quia ullam perspiciatis nulla autem! Laboriosam itaque accusamus voluptatum repellat inventore alias cumque.</p>
+            <button class="btn btn-primary" id="button-service" onclick="displayAlert()">Our Portfolio</button>
+        </div>
+    </div>
+
+
+    <footer id="footer-call" class="container-fluid " style="background-color: rgb(71, 68, 68);">
+
+        <div class="items  col col-md-6 col-sm-12">
+            <a href="#" style="color: aqua;">Our Contact</a>
+            <br>
+            <br>
+            <a class="footer-white" href="#"><strong>BootStrap Company inc</strong></a>
+            <br>
+            <a class="footer-white" href="#">jc main road near shinil tower</a>
+            <a class="footer-white"href="#">pin 12512 new york us</a>
+            <br>
+            <a class="footer-white"href="#">(123)456-789-1255-12584</a>
+            <a class="footer-white"href="#">email@Domainname.com</a>
+        </div>
+        <div class="items col col-md-6 col-sm-12">
+            <a href="#" style="color: aqua;">Quick links</a>
+            <br>
+            <a class="footer-white" href="#">Latest Event </a>
+            <a class="footer-white" href="#">terms & Condition</a>
+            <a class="footer-white" href="#">privacy policy</a>
+            <a class="footer-white" href="#">carrier</a>
+            <a class="footer-white" href="#">Contact us</a>
+        </div>
+        <div class="items col col-md-6 col-sm-12">
+            <a href="#" style="color: aqua;">Latest Post</a>
+            <br>
+            <br>
+            <a class="footer-white" href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+            <a class="footer-white" href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+            <a class="footer-white" href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+            <!-- <a href=""></a> -->
+        </div>
+        <div class="items col col-md-6 col-sm-12">
+            <a href="#" style="color: aqua;">Recent News</a>
+            <br>
+            <br>
+            <a class="footer-white" href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+            <a class="footer-white" href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+            <a class="footer-white" href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+            <!-- <a href=""></a> -->
+        </div>
+    
+    </footer>
+    
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
